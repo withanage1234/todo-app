@@ -1,0 +1,38 @@
+.getTodo {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  justify-content: center;
+  outline: none;
+  border: none;
+  width: 98%;
+  margin: 0 0 0 4px;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  text-align: start;
+}
+.getTodo-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+  border: 1px solid #225071;
+  background-color: #11476b;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin: 5px 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.getTodo-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.getTodo-icon-update:hover {
+  color: rgb(33, 192, 33);
+}
+.getTodo-icon-delete:hover {
+  color: rgb(215, 33, 33);
+}
